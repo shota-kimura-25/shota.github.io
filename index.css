@@ -2,20 +2,68 @@ body {
   font-family: "Avenir Next";
 }
 
-/* list-styleプロパティを用いて、<li>要素の黒点を取り除いてください */
-
+li {
+  list-style: none;
+}
 
 .header {
-  background-color: #f7f2b4;
+  background-color: #26d0c9;
+  color: #fff;
   height: 90px;
 }
 
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  /* background-colorの指定を消してください */
+  
+  /* heightの指定を消してください */
+  
+  /* 上下のpaddingを100px、左右のpaddingを80pxにしてください */
+  padding: 100px 80px;
+  
+}
+
+/* copy-containerの中のh1のfont-sizeを指定してください */
+.copy-container h1 {
+  font-size: 140px;
+}
+
+/* copy-containerの中のh2のfont-sizeを指定してください */
+.copy-container h2 {
+  font-size: 60px;
+}
+
+/* copy-containerの中のspanの色を指定してください */
+.copy-container span {
+  color: #ff4a4a;
 }
 
 .footer {
-  background-color: #ceccf3;
-  height: 270px;
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
